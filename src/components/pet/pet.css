@@ -1,0 +1,44 @@
+.pet {
+  width: 100%;
+  height: 100px;
+  display: block;
+  overflow: hidden;
+  margin: 15px 0;
+}
+
+.pet-title {
+  white-space: nowrap;
+  font-weight: normal;
+  font-size: 30px;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+.pet-subtitle {
+  white-space: nowrap;
+  font-weight: normal;
+  font-size: 20px;
+  margin: 0;
+}
+
+.pet-image {
+  clip-path: circle(50% at 50% 50%);
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 20px;
+}
+
+.pet-image > img {
+  width: 100px;
+  min-height: 100px;
+}
+
+.pet-info {
+  float: left;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

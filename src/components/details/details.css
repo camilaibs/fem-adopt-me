@@ -1,0 +1,28 @@
+.details {
+  background-color: #c4b2bc;
+  width: 95%;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.details p {
+  line-height: 2;
+}
+
+.details h1,
+.details h2 {
+  text-align: center;
+}
+
+.details button {
+  background-color: #ad343e;
+  padding: 5px 25px;
+  color: white;
+  font-size: 18px;
+  border: #333 1px solid;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
